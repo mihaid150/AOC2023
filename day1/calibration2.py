@@ -47,4 +47,4 @@ def extract_calibration_sum2():
         if token_list:
             values_sum += token_list[0][0] * 10 + token_list[-1][0]
 
-    return values_sum
+    print(values_sum)
