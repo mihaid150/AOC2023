@@ -18,7 +18,11 @@ from read_input import get_input
 # get_power_set_of_cubes()
 
 # Day 3 part 1
+# engine = EngineSchematicData(get_input("day3/input.txt"))
+# print(engine.compute_engine_sum())
+
+# Day 3 part 2
 engine = EngineSchematicData(get_input("day3/input.txt"))
-print(engine.compute_engine_sum())
+print(engine.compute_sum_of_all_gear_ratios())
 
 
