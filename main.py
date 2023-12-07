@@ -3,7 +3,7 @@ from day1.calibration2 import extract_calibration_sum2
 from day2.possible_games import get_sum_of_possible_games
 from day2.power_set_of_cubes import get_power_set_of_cubes
 from day3.sum_adjacent_parts import EngineSchematicData
-
+from day4.scratchcards import ScratchCardsData
 from read_input import get_input
 
 # Day1 part 1
@@ -27,6 +27,11 @@ from read_input import get_input
 # print(engine.compute_sum_of_all_gear_ratios())
 
 # Day 4 part 1
+# scratch_card = ScratchCardsData(get_input("day4/input.txt"))
+# print(scratch_card.find_scratch_cards_points())
 
+# Day 4 part 2
+scratch_card = ScratchCardsData(get_input("day4/input.txt"))
+scratch_card.process_scratchcards()
 
 
