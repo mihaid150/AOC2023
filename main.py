@@ -4,8 +4,8 @@ from day2.possible_games import get_sum_of_possible_games
 from day2.power_set_of_cubes import get_power_set_of_cubes
 from day3.sum_adjacent_parts import EngineSchematicData
 from day4.scratchcards import ScratchCardsData
-# from day5.almanac import AlmanacData
 from day5.almanac_mapping import AlmanacData
+from day6.race import RaceData
 from read_input import get_input
 
 # Day1 part 1
@@ -37,8 +37,13 @@ from read_input import get_input
 # scratch_card.process_scratchcards()
 
 # Day 5 part 1
-almanac = AlmanacData(get_input("day5/input.txt"))
-almanac.parse_data()
-almanac.part2_mapping()
+# almanac = AlmanacData(get_input("day5/input.txt"))
+# almanac.parse_data()
 
+# Day 5 part 2
+# almanac = AlmanacData(get_input("day5/input.txt"))
+# almanac.part2_mapping()
 
+# Day 6 part 1
+race = RaceData(get_input("day6/input.txt"))
+race.find_number_of_winning_scenarios()
