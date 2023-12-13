@@ -6,6 +6,7 @@ from day3.sum_adjacent_parts import EngineSchematicData
 from day4.scratchcards import ScratchCardsData
 from day5.almanac_mapping import AlmanacData
 from day6.race import RaceData
+from day7.camel_cards import CamelCardsData
 from read_input import get_input
 
 # Day1 part 1
@@ -45,5 +46,10 @@ from read_input import get_input
 # almanac.part2_mapping()
 
 # Day 6 part 1
-race = RaceData(get_input("day6/input.txt"))
-race.find_number_of_winning_scenarios()
+# race = RaceData(get_input("day6/input.txt"))
+# race.find_number_of_winning_scenarios()
+
+# Day 7 part 1
+camel_cards = CamelCardsData(get_input("day7/input.txt"))
+print(camel_cards.get_total_winnings_jokers())
+
