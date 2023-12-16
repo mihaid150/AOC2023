@@ -7,6 +7,8 @@ from day4.scratchcards import ScratchCardsData
 from day5.almanac_mapping import AlmanacData
 from day6.race import RaceData
 from day7.camel_cards import CamelCardsData
+from day8.network_navigate import NetworkInstructions
+from day9.oasis_report import OasisReport
 from read_input import get_input
 
 # Day1 part 1
@@ -50,6 +52,23 @@ from read_input import get_input
 # race.find_number_of_winning_scenarios()
 
 # Day 7 part 1
-camel_cards = CamelCardsData(get_input("day7/input.txt"))
-print(camel_cards.get_total_winnings_jokers())
+# camel_cards = CamelCardsData(get_input("day7/input.txt"))
+# print(camel_cards.get_total_winnings_jokers())
+
+# Day 8 part 1
+# network = NetworkInstructions(get_input("day8/input.txt"))
+# network.network_traversal()
+
+# Day 8 part 2
+# network = NetworkInstructions(get_input("day8/input.txt"))
+# network.ghost_network_traversal()
+
+# Day 9 part 1
+# oasis = OasisReport(get_input("day9/input.txt"))
+# oasis.find_history_elements()
+
+# Day 9 part 2
+oasis = OasisReport(get_input("day9/input.txt"))
+oasis.find_history_elements_backward()
+
 
