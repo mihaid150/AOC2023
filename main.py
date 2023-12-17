@@ -9,8 +9,9 @@ from day6.race import RaceData
 from day7.camel_cards import CamelCardsData
 from day8.network_navigate import NetworkInstructions
 from day9.oasis_report import OasisReport
-# from day10.pipes_map import Pipes
 from day10.pipes_map2 import Pipes
+from day11.cosmic_expansion import Universe
+from day11.cosmic_expansion2 import Universe
 from read_input import get_input
 
 # Day1 part 1
@@ -74,7 +75,18 @@ from read_input import get_input
 # oasis.find_history_elements_backward()
 
 # Day 10 part 1
-pipes = Pipes(get_input("day10/input.txt"))
-pipes.traverse_pipe_map()
+# pipes = Pipes(get_input("day10/input.txt"))
+# pipes.traverse_pipe_map()
 
+# Day 10 part 2
+# pipes = Pipes(get_input("day10/input.txt"))
+# pipes.traverse_pipe_map()
+
+# Day 11 part 1
+# universe = Universe(get_input("day11/input.txt"))
+# universe.sum_shortest_paths_abs()
+
+# Day 11 part 2
+universe = Universe(get_input("day11/input.txt"))
+print(universe.sum_shortest_paths())
 
