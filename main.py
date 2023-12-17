@@ -9,6 +9,8 @@ from day6.race import RaceData
 from day7.camel_cards import CamelCardsData
 from day8.network_navigate import NetworkInstructions
 from day9.oasis_report import OasisReport
+# from day10.pipes_map import Pipes
+from day10.pipes_map2 import Pipes
 from read_input import get_input
 
 # Day1 part 1
@@ -68,7 +70,11 @@ from read_input import get_input
 # oasis.find_history_elements()
 
 # Day 9 part 2
-oasis = OasisReport(get_input("day9/input.txt"))
-oasis.find_history_elements_backward()
+# oasis = OasisReport(get_input("day9/input.txt"))
+# oasis.find_history_elements_backward()
+
+# Day 10 part 1
+pipes = Pipes(get_input("day10/input.txt"))
+pipes.traverse_pipe_map()
 
 
