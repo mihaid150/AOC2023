@@ -12,6 +12,7 @@ from day9.oasis_report import OasisReport
 from day10.pipes_map2 import Pipes
 from day11.cosmic_expansion import Universe
 from day11.cosmic_expansion2 import Universe
+from day12.hot_springs import HotSprings
 from read_input import get_input
 
 # Day1 part 1
@@ -87,6 +88,11 @@ from read_input import get_input
 # universe.sum_shortest_paths_abs()
 
 # Day 11 part 2
-universe = Universe(get_input("day11/input.txt"))
-print(universe.sum_shortest_paths())
+# universe = Universe(get_input("day11/input.txt"))
+# print(universe.sum_shortest_paths())
+
+# Day 12 part 1
+springs = HotSprings(get_input("day12/input.txt"))
+print(springs.sum_valid_springs_arrangements2())
+
 
