@@ -231,8 +231,3 @@ class MirrorsDomain:
                     patterns_sum += (smudged_column_index + 1)
                     continue
         print(patterns_sum)
-
-    def testing(self):
-        self.parse_input()
-        for pattern in self.mirror_patterns:
-            print(self.find_consecutive_columns_with_one_smudge(pattern))

@@ -101,7 +101,6 @@ from read_input import get_input
 # print(springs.sum_valid_springs_arrangements2())
 
 # Day 13 part 1
-mirrors = MirrorsDomain(get_input("day13/input.txt"))
-mirrors.test_method()
-# mirrors.testing()
+# mirrors = MirrorsDomain(get_input("day13/input.txt"))
+# mirrors.test_method()
 
