@@ -13,6 +13,7 @@ from day10.pipes_map2 import Pipes
 from day11.cosmic_expansion import Universe
 from day11.cosmic_expansion2 import Universe
 from day12.hot_springs import HotSprings
+from day13.point_of_incidence import MirrorsDomain
 from read_input import get_input
 
 # Day1 part 1
@@ -91,8 +92,16 @@ from read_input import get_input
 # universe = Universe(get_input("day11/input.txt"))
 # print(universe.sum_shortest_paths())
 
-# Day 12 part 1
-springs = HotSprings(get_input("day12/input.txt"))
-print(springs.sum_valid_springs_arrangements2())
+# Day 12 part 2
+# springs = HotSprings(get_input("day12/input.txt"))
+# print(springs.sum_valid_springs_arrangements())
 
+# Day 12 part 2
+# springs = HotSprings(get_input("day12/input.txt"))
+# print(springs.sum_valid_springs_arrangements2())
+
+# Day 13 part 1
+mirrors = MirrorsDomain(get_input("day13/input.txt"))
+mirrors.test_method()
+# mirrors.testing()
 
