@@ -149,7 +149,7 @@ class MirrorsDomain:
                 patterns_sum += 100 * (row_index + 1)
         print(patterns_sum)
 
-    def test_method(self):
+    def complex_reflection_sum(self):
         self.parse_input()
         patterns_sum = 0
         for pattern in self.mirror_patterns:
